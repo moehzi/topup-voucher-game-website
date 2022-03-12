@@ -1,5 +1,6 @@
 import '../styles/utilities.css';
 import '../styles/homepage.css';
+import '../styles/detail.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -35,7 +36,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <Component // eslint-disable-next-line react/jsx-props-no-spreading
+        {...pageProps}
+      />
     </>
   );
 }

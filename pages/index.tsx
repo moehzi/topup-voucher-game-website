@@ -103,16 +103,18 @@ function Home() {
                 Halo gamers,
               </p>
               <h1 className="header-title color-palette-1 fw-bold">
-                Topup & Get <span className="d-sm-inline d-none">a</span>
+                Topup & Get
+                <span className="d-sm-inline d-none">a</span>
                 <span className="d-sm-none d-inline">a</span>
-                <span className="underline-blue"> New</span>{' '}
-                <br className="d-sm-block d-none" />{' '}
-                <span className="underline-blue">Experience</span> in Gaming
+                <span className="underline-blue"> New</span>
+                <br className="d-sm-block d-none" />
+                <span className="underline-blue">Experience</span>
+                in Gaming
               </h1>
               <p className="mt-30 mb-40 text-lg color-palette-1">
                 Kami menyediakan jutaan cara untuk membantu
-                <br className="d-md-block d-none" /> players menjadi pemenang
-                sejati
+                <br className="d-md-block d-none" />
+                players menjadi pemenang sejati
               </p>
               <div className="d-flex flex-lg-row flex-column gap-4">
                 <a
@@ -124,7 +126,7 @@ function Home() {
                 </a>
                 <a
                   className="btn-learn text-lg color-palette-1 my-auto text-center"
-                  href="#"
+                  href="#learnmore"
                   role="button"
                 >
                   Learn More
@@ -246,7 +248,8 @@ function Home() {
         <div className="container-fluid">
           <h2 className="text-4xl fw-bold color-palette-1 text-center mb-30">
             It’s Really That
-            <br /> Easy to Win the Game
+            <br />
+            Easy to Win the Game
           </h2>
           <div className="row gap-lg-0 gap-4" data-aos="fade-up">
             <div className="col-lg-4">
@@ -399,14 +402,14 @@ function Home() {
                       stroke="white"
                       strokeWidth="4"
                       strokeLinecap="round"
-                      strookeLinejoin="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M92 59L74 59"
                       stroke="#6B63AC"
                       strokeWidth="4"
                       strokeLinecap="round"
-                      strookeLinejoin="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>
@@ -456,21 +459,21 @@ function Home() {
                       stroke="white"
                       strokeWidth="4"
                       strokeLinecap="round"
-                      strookeLinejoin="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M40 54L40 68"
                       stroke="#B7B0F4"
                       strokeWidth="4"
                       strokeLinecap="round"
-                      strookeLinejoin="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M30 60L30 68"
                       stroke="#B7B0F4"
                       strokeWidth="4"
                       strokeLinecap="round"
-                      strookeLinejoin="round"
+                      strokeLinejoin="round"
                     />
                     <circle cx="40" cy="26" r="14" fill="#2B2467" />
                     <path
@@ -496,7 +499,8 @@ function Home() {
         <div className="container-fluid">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">
             Our Featured
-            <br /> Games This Year
+            <br />
+            Games This Year
           </h2>
           <div
             className="d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3 gap-4"
@@ -696,8 +700,8 @@ function Home() {
                 Players Top Up
               </p>
             </div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 12.500
@@ -748,18 +752,20 @@ function Home() {
               <div className="">
                 <h2 className="text-4xl fw-bold color-palette-1 mb-30">
                   Win the battle.
-                  <br /> Be the Champion.
+                  <br />
+                  Be the Champion.
                 </h2>
                 <p className="text-lg color-palette-1 mb-30">
                   Kami menyediakan jutaan cara untuk
                   <br className="d-sm-block d-none" />
                   membantu players menjadi
-                  <br className="d-sm-block d-none" /> pemenang sejati
+                  <br className="d-sm-block d-none" />
+                  pemenang sejati
                 </p>
                 <div className="d-md-block d-flex flex-column w-100">
                   <a
                     className="btn btn-read text-lg rounded-pill"
-                    href="#"
+                    href="#story"
                     role="button"
                   >
                     Read Story
@@ -775,7 +781,7 @@ function Home() {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-4 text-lg-start text-center">
-                <a href="" className="mb-30">
+                <a href="#m" className="mb-30">
                   <svg
                     width="60"
                     height="60"
@@ -808,7 +814,9 @@ function Home() {
                   </svg>
                 </a>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
-                  StoreGG membantu gamers<br></br> untuk menjadi pemenang sejati
+                  StoreGG membantu gamers
+                  <br />
+                  untuk menjadi pemenang sejati
                 </p>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
                   Copyright 2021. All Rights Reserved.
@@ -823,7 +831,7 @@ function Home() {
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#about"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           About Us
@@ -831,7 +839,7 @@ function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#release"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Press Release
@@ -839,7 +847,7 @@ function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#terms"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Terms of Use
@@ -847,7 +855,7 @@ function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#privacy"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Privacy & Policy
@@ -862,7 +870,7 @@ function Home() {
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#policy"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Refund Policy
@@ -870,7 +878,7 @@ function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#rewards"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Unlock Rewards
@@ -878,7 +886,7 @@ function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="#chat"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Live Chatting
@@ -909,8 +917,7 @@ function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href="http://maps.google.com/?q=Pasific 12,
-									Jakarta Selatan"
+                          href="http://maps.google.com/?q=Pasific 12,Jakarta Selatan"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Pasific 12, Jakarta Selatan

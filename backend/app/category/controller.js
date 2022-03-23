@@ -58,6 +58,20 @@ module.exports = {
         { name }
       );
       res.redirect('/category');
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
+  actionDelete: async (req, res) => {
+    try {
+      const { id } = req.params;
+
+      const category = await Category.findOneAndRemove({ _id: id });
+
+      res.redirect('/category');
+    } catch (err) {
+      console(error);
+    }
   },
 };

@@ -45,4 +45,20 @@ module.exports = {
       res.redirect('/nominal');
     }
   },
+
+  viewEdit: async (req, res) => {
+    try {
+      const { id } = req.params;
+
+      const nominal = await Nominal.findOne({ _id: id });
+
+      res.render('admin/nominal/edit', {
+        nominal,
+      });
+    } catch (error) {
+      req.flash('alertMessage', `${err.message}`);
+      req.flash('alertStatus', 'danger');
+      res.redirect('/nominal');
+    }
+  },
 };
